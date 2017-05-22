@@ -31,9 +31,13 @@ public class ParcialLaboratorio {
             System.out.println("Los numeros son iguales");
             
         }else{
-    
             System.out.println("Los numeros son diferentes");
-    
+            if(numero_uno<numero_dos){
+            System.out.println("El numero dos es mayor");
+            }else if(numero_uno>numero_dos){
+                
+            System.out.println("El numero uno es mayor");
+            }
 }
         }
     }
